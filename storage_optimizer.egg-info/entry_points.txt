@@ -1,0 +1,2 @@
+[console_scripts]
+storage_optimizer = storage_optimizer.cli:main

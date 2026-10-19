@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "storage_optimizer"
+version = "0.1.0"
+description = "Enterprise Geospatial Raster Compression Engine"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "click",
+    "rasterio",
+    "numpy",
+    "tqdm",
+]
+
+[project.scripts]
+storage_optimizer = "storage_optimizer.cli:main"

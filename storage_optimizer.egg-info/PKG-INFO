@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: storage_optimizer
+Version: 0.1.0
+Summary: Enterprise Geospatial Raster Compression Engine
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: rasterio
+Requires-Dist: numpy
+Requires-Dist: tqdm

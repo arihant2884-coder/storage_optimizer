@@ -1,0 +1,72 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.0.0/schema.json"
+  ],
+  "id": "final_2026_optimized",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          76.03080053355237,
+          34.75635733175477
+        ],
+        [
+          77.85572803324115,
+          34.75635733175477
+        ],
+        [
+          77.85572803324115,
+          35.74118037773499
+        ],
+        [
+          76.03080053355237,
+          35.74118037773499
+        ],
+        [
+          76.03080053355237,
+          34.75635733175477
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    76.03080053355237,
+    34.75635733175477,
+    77.85572803324115,
+    35.74118037773499
+  ],
+  "properties": {
+    "datetime": "2026-01-01T00:00:00Z",
+    "proj:epsg": 4326,
+    "raster:bands": [
+      {
+        "data_type": "float32",
+        "nodata": null
+      },
+      {
+        "data_type": "float32",
+        "nodata": null
+      },
+      {
+        "data_type": "float32",
+        "nodata": null
+      }
+    ]
+  },
+  "assets": {
+    "data": {
+      "href": "./final_2026_optimized.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": [
+        "data"
+      ],
+      "file:size": 708731946
+    }
+  },
+  "links": []
+}
